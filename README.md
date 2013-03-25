@@ -1,3 +1,23 @@
+# Theme for kjui Documentation
+
+forked from https://github.com/aralejs/nico-arale
+
+原来的模板有许多链接都是指向外网, 本fork的目标是在断网或者联网环境下都可以正常访问文档
+
+KJUI模块从https://github.com/stonelee/kjui加载
+
+断网或者调试时加快加载速度，此时所有链接都指向本机
+
+```
+$ make debug
+```
+
+联网环境下访问文档， 与原版相同，链接指向外网
+
+```
+$ make server
+```
+
 # Theme for Arale Documentation
 
 ---
