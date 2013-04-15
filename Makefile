@@ -1,5 +1,8 @@
 THEME = $(HOME)/.spm/themes/arale
 
+deploy:
+	@git push kjui master
+
 build-doc:
 	@nico build -v -C $(THEME)/nico.js
 
